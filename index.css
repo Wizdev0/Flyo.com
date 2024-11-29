@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    overflow-x: hidden;
+    
+} */
+
+.mobile-only{
+    display: none;
+}
+
+/* HEADER */
+.logo{
+    width: 150px;
+    margin-left: 70px;
+    margin-top:15px;
+}
+
+.link ul{
+    display: flex;
+    justify-content: space-betwe;
+    gap: 30px;
+    list-style-type: none;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+}
+
+/* PART ONE */
+
+.illus-1{
+    width: 500px;
+    position: absolute;
+    right: 60px;
+    top: 120px;
+}
+
+.mj-h3{
+    width: 56%;
+    line-height: 1.5;
+    font-size: 2.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-p{
+    width: 46%;
+    margin-top: 12px;
+    font-size: 1rem;
+    font-family: 'open sans';
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+
+.txt-1{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+
+/* FIRST SIGNUP */
+.input-1{
+  position: absolute;
+  top: 47%;
+  left: 5%;
+
+}
+
+.btn-1{
+    padding: 8px;
+    width: 170px;
+    background-color: blue;
+    color: white;
+    border: solid 0.2px black;
+    border-radius: 2px;
+    font-family: 'open sans';
+    font-weight: 600;
+}
+
+.email{
+    padding: 8px;
+    width: 280px;
+    opacity: 0.5;
+}
+
+/* PART TWO */
+
+.desktop-only{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.illus-2{
+    width: 500px;
+    position: absolute;
+    right: 60px;
+    top: 85%;
+    
+}
+
+
+.txt-2{
+    position: absolute;
+    top: 87%;
+    left: 5%;
+}
+
+.mj-h3-2{
+    width: 100%;
+    line-height: 1.5;
+    font-size: 2.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-2{
+    width: 60%;
+    margin-top: 12px;
+    font-size: 1rem;
+    font-family: 'open sans';
+    font-weight: 600;
+    opacity: 0.9;
+    line-height: 1.3;
+}
+
+.sub-p-2p{
+    margin-top: 20px;
+}
+
+/* GREEN */
+.lnk{
+    display: inline-block;
+    justify-content: center;
+/*     text-decoration: underline; */
+    color: green;
+    margin-top: 20px;
+    text-underline-offset: 8px;
+    border-bottom: 1.2px solid green;
+    padding-bottom: 6px;
+}
+
+.lnk-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.g-arr{
+    position: relative;
+    top: 3.5px;
+    right: -2px;
+}
+
+/* CARD */
+.card{
+    position: absolute;
+    top: 120%;
+    left: 65px;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 3px;
+    
+    width: 30%;
+    height: 35%;
+    
+}
+
+.quotes{
+    position: relative;
+    top: -20px;
+}
+
+.qto{
+    width: 80%;
+    position: relative;
+    top: -10px;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+.pro{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pro-info{
+    margin-top: 17px;
+}
+
+.pro-name{
+    font-size: 16.5px;
+    font-weight: bolder;
+    font-family: 'Robobto', Arial, sans-serif;
+    margin-bottom: 3px;
+}
+
+.pro-sub{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: grey;
+}
+
+
+/* PART 3 */
+.pt-3{
+    position: absolute;
+    top: 170%;
+    background-color: hsl(238, 22%, 44%);
+    width: 100%;
+    padding: 130px;
+    margin-bottom: 40px;
+}
+
+.txt-3{
+    position: absolute;
+    left: 4%;
+    top: 60px;
+    color: white;
+    font-family: 'Open sans';
+}
+
+.mj-h3-3{
+    font-size: 2.3rem;
+}
+
+.sub-p-3{
+    margin-top: 20px;
+    width: 43%;
+}
+
+/* SECOND SIGNUP */
+.input-2{
+    position: absolute;
+    top: 60px;
+    left: 60%;
+    background-color: white;
+    height: 40px;
+    border-radius: 2px;
+}
+  
+.btn-2{
+    padding: 8px;
+    width: 170px;
+    background-color: blue;
+    color: white;
+    border: solid 0.2px black;
+    border-radius: 2px;
+    font-family: 'open sans';
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    border: none;
+    
+}
+
+.email-2{
+    padding: 8px;
+    width: 490px;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    
+  
+}
+
+
+/* PART 4 */
+.pt-4{
+    position: absolute;
+    top: 200%;
+    background-color: hsl(243, 87%, 12%);
+    width: 100%;
+    padding: 150px;
+}
+
+
+
+.flyo-lg{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50px;
+}
+
+
+
+.contacts{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 10px;
+    left: -100px;
+}
+
+
+.number{
+    color: white;
+    font-family: 'open sans';
+}
+
+.mail{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 45px;
+    left: -100px;
+}
+
+.add{
+    color: white;
+    font-family: 'open sans';
+}
+
+.link-1{
+    position: absolute;
+    left: 35%;
+    top: 48%;
+   color: white;
+   
+}
+
+.link-1 ul{
+    list-style-type: none;
+ 
+}
+
+.link-1 li{
+    margin-bottom: 20px;
+}
+
+.link-2{
+    position: absolute;
+    left: 50%;
+    top: 48%;
+   color: white;
+}
+
+.link-2 ul{
+    list-style-type: none;
+ 
+}
+
+.link-2 li{
+    margin-bottom: 20px;
+}
+
+/* SOCIALS */
+
+.socials{
+    position: absolute;
+    left: 70%;
+    top: 48%;
+   color: white;
+   display: flex;
+   gap: 15px;
+  
+}
+
+.facebook, .instagram, .twitter{
+    width: 40px;
+}
+
+/* PHONE DESIGN */
+@media only screen and (max-width:600px){
+ 
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .desktop-only{
+        display: none;
+    }
+
+
+
+
+    
+/* HEADER */
+
+.logo{
+    width: 30%;
+    margin-left: 4%;
+    margin-top: 6%;
+}
+
+
+
+.link ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    list-style-type: none;
+    position: absolute;
+    right: 13%;
+    top: 4%;
+}
+
+/* PART ONE */
+
+.illus-1{
+    width: 70%;
+    display: flex;
+    position: absolute;
+    left: 16%;
+    top: 20%;
+   
+}
+
+.mj-h3{
+    width: 90%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.sub-p{
+    width: 90%;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 1rem;
+    font-family: 'open sans';
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+
+.txt-1{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 90%;
+}
+
+
+/* FIRST SIGNUP */
+.input-1{
+  position: absolute;
+  top: 95%;
+  left: 10%;
+  
+  
+  
+}
+.email{
+    padding: 8px;
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 0.2px ;
+}
+
+.btn-1{
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: solid 0.2px black;
+    border-radius: 2px;
+    font-family: 'open sans';
+    font-weight: 600;
+}
+
+
+
+/* PART TWO */
+
+.mobile-only{
+    display: flex;
+    position: absolute;
+    top: 115%;
+    width: 100%;
+    z-index: -1000;
+}
+
+.illus-2{
+    width: 70%;
+    position: absolute;
+    right: 20%;
+    top: 119%;
+    
+}
+
+
+.txt-2{
+    position: absolute;
+    top: 160%;
+    left: 4%;
+}
+
+.mj-h3-2{
+    width: 100%;
+    font-size: 115%;
+    font-family: 'open sans';
+}
+
+.sub-2{
+    width: 90%;
+    text-align: left;
+    margin-top: 9%;
+    font-size: 104%;
+    font-family: 'open sans';
+    font-weight: 600;
+    opacity: 0.9;
+    line-height: 1.3;
+}
+
+.sub-p-2p{
+    margin-top: 20px;
+}
+
+/* GREEN */
+.lnk{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    margin-top: 10%;
+    margin-left: 25%;
+    text-underline-offset: 8%;
+    border-bottom: 1.2px solid green;
+    padding-bottom: 3%;
+}
+
+.lnk-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+
+.g-arr{
+    position: relative;
+    top: 3.5px;
+    right: -2px;
+}
+
+/* CARD */
+.card{
+    position: absolute;
+    top: 206%;
+    left: 4%;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 3px;
+    
+    width: 80%;
+    height: 40%;
+    
+}
+
+.quotes{
+    position: relative;
+    top: -20px;
+}
+
+.qto{
+/*     width: 80%; */
+    position: relative;
+    top: -10px;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+.pro{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pro-info{
+    margin-top: 17px;
+}
+
+.pro-name{
+    font-size: 16.5px;
+    font-weight: bolder;
+    font-family: 'Robobto', Arial, sans-serif;
+    margin-bottom: 3px;
+}
+
+.pro-sub{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: grey;
+}
+
+
+/* PART 3 */
+.pt-3{
+    position: absolute;
+    top: 250%;
+    background-color: hsl(238, 22%, 44%);
+    width: 100%;
+    height: 50%;
+    padding: 130px;
+ /*    margin-bottom: 40px; */
+}
+
+.txt-3{
+    position: absolute;
+    left: 4%;
+    top: 60px;
+    color: white;
+    font-family: 'Open sans';
+}
+
+.mj-h3-3{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-p-3{
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+/* SECOND SIGNUP */
+.input-2{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    background-color: white;
+    width: 80%;
+ 
+    border-radius: 2px;
+}
+  
+.btn-2{
+    padding: 10px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: solid 0.2px black;
+    border-radius: 2px;
+    font-family: 'open sans';
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    border: none;
+    
+}
+
+.email-2{
+    padding: 8px;
+    width: 90%;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    
+  
+}
+
+
+/* PART 4 */
+.pt-4{
+    position: absolute;
+    top: 300%;
+    background-color: hsl(243, 87%, 12%);
+    width: 100%;
+    height: 90%;
+  
+}
+
+
+
+.flyo-lg{
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+}
+
+
+
+.contacts{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+ 
+}
+
+.number{
+ color: white;
+
+ display: flex;
+}
+
+.mail{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.add{
+    color: white;
+    font-family: 'open sans';
+}
+
+.link-1{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+   color: white;
+   
+}
+
+.link-1 ul{
+    list-style-type: none;
+ 
+}
+
+.link-1 li{
+    margin-bottom: 20px;
+}
+
+.link-2{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+   color: white;
+}
+
+.link-2 ul{
+    list-style-type: none;
+ 
+}
+
+.link-2 li{
+    margin-bottom: 20px;
+}
+
+/* SOCIALS */
+
+.socials{
+    position: absolute;
+    left: 20%;
+    top: 90%;
+   color: white;
+   display: flex;
+   gap: 15px;
+  
+}
+
+.facebook, .instagram, .twitter{
+    width: 40px;
+}
+
+
+}
