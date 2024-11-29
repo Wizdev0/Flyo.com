@@ -419,7 +419,7 @@
     gap: 15px;
     list-style-type: none;
     position: absolute;
-    right: 13%;
+    right: 9%;
     top: 4%;
 }
 
@@ -568,7 +568,7 @@
 /* CARD */
 .card{
     position: absolute;
-    top: 206%;
+    top: 210%;
     left: 4%;
     background-color: white;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
@@ -576,7 +576,7 @@
     border-radius: 3px;
     
     width: 80%;
-    height: 40%;
+    height: 60%;
     
 }
 
@@ -631,7 +631,7 @@
 /* PART 3 */
 .pt-3{
     position: absolute;
-    top: 250%;
+    top: 280%;
     background-color: hsl(238, 22%, 44%);
     width: 100%;
     height: 50%;
@@ -700,10 +700,10 @@
 /* PART 4 */
 .pt-4{
     position: absolute;
-    top: 300%;
+    top: 330%;
     background-color: hsl(243, 87%, 12%);
     width: 100%;
-    height: 90%;
+    height: 100%;
   
 }
 
@@ -722,7 +722,7 @@
     display: flex;
     gap: 20px;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 10%;
  
 }
@@ -737,7 +737,7 @@
     display: flex;
     gap: 20px;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 10%;
 }
 
@@ -749,7 +749,7 @@
 .link-1{
     position: absolute;
     left: 10%;
-    top: 45%;
+    top: 43%;
    color: white;
    
 }
